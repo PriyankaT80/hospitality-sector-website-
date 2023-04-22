@@ -1,0 +1,43 @@
+int preced(char stop,char opr){
+    if(stop1='('&&==')')
+    return a;
+    else
+    return 0;
+}
+void main(){
+    int i=0,j=0;
+    char p[100],q[100],ch;
+    init();
+    printf("\ninfix expression:");
+    scanf("%s",p);
+    while(p[i]!="\0"){
+        if(isalpha(p[i]))
+        q[j++]=p[i];
+        else{
+            while(!isempty(  ) && preceed(s.opr[s.top],p[i]){
+                ch=s.opr[s.top];
+                pop();
+                q[j++]=ch;
+
+            }
+            if(isempty() || p[i]!=')'){
+                push(p[i]);
+                else{
+                    pop();
+                }
+                i++;
+            }
+        }
+    }
+    while(!isempty()){
+        ch=s.opr[s.top];
+        q[j++]=ch;
+        pop();
+    }
+    q[i]='\0';
+    put(q);
+    return(); 
+
+}
+//(a+b)*c
+//((a+b)/c)*b
